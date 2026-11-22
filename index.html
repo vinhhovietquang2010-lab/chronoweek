@@ -3549,7 +3549,7 @@ Quy ước bắt buộc:
 - "startTime" và "endTime" định dạng 24 giờ "HH:MM" (VD: "07:30", "09:15"). Nếu ảnh chỉ ghi Tiết (VD Tiết 1-2 sáng) mà không có giờ cụ thể, hãy ước lượng hợp lý (VD Tiết 1 = 07:00, mỗi tiết 45 phút).
 ${extraNote ? `Ghi chú thêm của người dùng: ${extraNote}` : ''}`;
 
-            const modelsToTry = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'];
+            const modelsToTry = ['gemini-2.5-flash', 'gemini-2.0-flash'];
             let lastError = null;
             let rawText = null;
 
